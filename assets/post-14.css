@@ -82,3 +82,14 @@
 .elementor-14 .elementor-element.elementor-element-5a18b95 .elementor-widget-wrap{margin-top:0 !important;}
 .elementor-14 .elementor-element.elementor-element-5a18b95{padding-top:8px !important;}
 }
+
+/* Celular: faixa de contatos com divisórias iguais e discretas entre os 3 itens */
+@media (max-width:767px){
+.elementor-14 .elementor-element.elementor-element-12d192d1 > .elementor-container > .elementor-column > .elementor-widget-wrap{border:0 !important;position:relative;}
+.elementor-14 .elementor-element.elementor-element-2b1e9ba1 > .elementor-widget-wrap::before,
+.elementor-14 .elementor-element.elementor-element-4aadcf6f > .elementor-widget-wrap::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:64%;height:1px;background:linear-gradient(90deg, rgba(211,173,100,0) 0%, rgba(211,173,100,.55) 50%, rgba(211,173,100,0) 100%);}
+}
+/* Telefone/e-mail: o iPhone transforma em link e pinta de outra cor — mantém branco como os outros */
+.elementor-14 .elementor-element.elementor-element-12d192d1 .elementor-icon-box-description a,
+.elementor-14 .elementor-element.elementor-element-12d192d1 a[x-apple-data-detectors],
+.elementor-14 .elementor-element.elementor-element-12d192d1 a[href^="tel"]{color:#FFFFFF !important;text-decoration:none !important;}
