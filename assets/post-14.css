@@ -113,3 +113,9 @@
 /* Sobre mim e Como funciona: linhas cheias preenchem toda a largura (justificado) e a última linha de cada parágrafo fica centralizada */
 .elementor-14 .elementor-element.elementor-element-fa2a30a p,
 .elementor-14 .elementor-element.elementor-element-0624a2f p{text-align:justify;text-align-last:center;}
+
+/* Sobre mim e Como funciona: títulos centralizados junto com o texto */
+.elementor-14 .elementor-element.elementor-element-2bf9e51 .elementor-heading-title,
+.elementor-14 .elementor-element.elementor-element-1f26899 .elementor-heading-title,
+.elementor-14 .elementor-element.elementor-element-2ef68fbd .elementor-heading-title,
+.elementor-14 .elementor-element.elementor-element-9ad2d4e .elementor-heading-title{text-align:center;}
