@@ -102,3 +102,10 @@
 
 /* Menu do celular: o ícone do hambúrguer vem da fonte ekiticons, que não tem arquivo aqui e aparecia como um quadradinho. Usa o Font Awesome (já carregado), mantendo tamanho e cor do botão */
 .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu i.icon-burger-menu::before{font-family:"Font Awesome 5 Free" !important;font-weight:900 !important;font-style:normal !important;content:"\f0c9" !important;}
+
+/* Sobre mim no celular/tablet: o texto e o título tinham 35px de recuo só à esquerda (herança do desktop, onde ficam ao lado da foto) e pareciam deslocados para a direita. Zera o recuo quando a seção empilha. */
+@media(max-width:1024px){
+  .elementor-14 .elementor-element.elementor-element-2bf9e51 > .elementor-widget-container,
+  .elementor-14 .elementor-element.elementor-element-1f26899 > .elementor-widget-container,
+  .elementor-14 .elementor-element.elementor-element-fa2a30a > .elementor-widget-container{padding-left:0 !important;}
+}
