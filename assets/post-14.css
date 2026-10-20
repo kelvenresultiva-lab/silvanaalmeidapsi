@@ -93,3 +93,12 @@
 .elementor-14 .elementor-element.elementor-element-12d192d1 .elementor-icon-box-description a,
 .elementor-14 .elementor-element.elementor-element-12d192d1 a[x-apple-data-detectors],
 .elementor-14 .elementor-element.elementor-element-12d192d1 a[href^="tel"]{color:#FFFFFF !important;text-decoration:none !important;}
+
+/* Textos corridos das seções (Sobre mim, Como funciona, dúvidas e respostas do FAQ) justificados em todos os tamanhos de tela; hifenização automática reduz buracos entre palavras. Textos centralizados dos cards e títulos ficam como estão. */
+.elementor-14 .elementor-element.elementor-element-fa2a30a p,
+.elementor-14 .elementor-element.elementor-element-0624a2f p,
+.elementor-14 .elementor-element.elementor-element-750ad20 p,
+.elementor-14 .elementor-element.elementor-element-189ba95d p{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto;}
+
+/* Menu do celular: o ícone do hambúrguer vem da fonte ekiticons, que não tem arquivo aqui e aparecia como um quadradinho. Usa o Font Awesome (já carregado), mantendo tamanho e cor do botão */
+.jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu i.icon-burger-menu::before{font-family:"Font Awesome 5 Free" !important;font-weight:900 !important;font-style:normal !important;content:"\f0c9" !important;}
