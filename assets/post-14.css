@@ -119,3 +119,7 @@
 .elementor-14 .elementor-element.elementor-element-1f26899 .elementor-heading-title,
 .elementor-14 .elementor-element.elementor-element-2ef68fbd .elementor-heading-title,
 .elementor-14 .elementor-element.elementor-element-9ad2d4e .elementor-heading-title{text-align:center;}
+
+/* Como funciona: nomes das barras "Ambiente Seguro" e "Sigilo e Ética" centralizados */
+.elementor-14 .elementor-element.elementor-element-4c61ef5a .skill-bar-content,
+.elementor-14 .elementor-element.elementor-element-7ef9259f .skill-bar-content{text-align:center;}
